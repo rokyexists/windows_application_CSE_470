@@ -1,0 +1,8 @@
+textBox1.SelectionStart = textBox1.Text.Length;
+textBox1.ScrollToCaret();
+listBox1.SelectedIndex = listBox1.Items.Count - 1;
+listBox1.SelectedIndex = -1;
+listView1.EnsureVisible(listView1.Items.Count - 1);
+treeView1.Nodes[treeView1.Nodes.Count - 1].EnsureVisible();
+dataGridView1.FirstDisplayedCell =
+  dataGridView1.Rows[dataGridView1.Rows.Count - 1].Cells[0];
